@@ -1,0 +1,45 @@
+
+
+h1 {
+    text-align: center;
+    font-size: 5em;
+    color: #fff;
+    font-weight: 200;
+    margin-top: auto;
+  }
+
+
+  img{
+      right:50px;
+      top:75px;
+      width:23%;
+      height:auto;
+      margin: auto 580px;
+  }
+
+
+  .button
+{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    font-size: 25px;
+    color: #15f4ee;
+    font-family: poppins;
+    font-weight: 200;
+    border: 5px solid #15f4ee;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
+}
+.button:hover
+{
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+                0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee;
+}

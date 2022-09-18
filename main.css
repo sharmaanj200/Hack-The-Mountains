@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=IBM+Plex+Sans+Condensed:ital,wght@1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+   
+    background: rgb(237, 210, 54);
+  }
+  .wrapper{
+    margin: 7.5%;
+  }
+  .wrapper h1{
+    font-family: 'Combo', cursive;
+  font-size: 140px;
+  margin-bottom: 60px;
+  text-align: center;
+  }
+
+  .button1 {
+    display: flex;
+    height: 100px;
+    padding: 0;
+    margin-top: 5%;
+    margin-left: 32%;
+    background: rgb(160, 124, 196);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    cursor: pointer;
+    
+  }
+  
+  .button1.hover {
+    background: rgb(53, 9, 98);
+  }
+  
+  .button1:active {
+    background: rgb(53, 9, 98);
+  }
+  
+  .button1__text,
+  .button1__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 40px;
+    color: #fff;
+    height: 100%;
+  }
+  
+  .button1__icon {
+    font-size: 1.5em;
+    background: rgb(160, 124, 196);
+  }
+
+  .button2 {
+    display: flex;
+    height: 100px;
+    padding: 0;
+    margin-top: 8%;
+    margin-left: 32%;
+    background: rgb(34, 183, 34);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .button2.hover {
+    background: green;
+  }
+  
+  .button2:active {
+    background:green;
+  }
+  
+  .button2__text,
+  .button2__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 40px;
+    color: #fff;
+    height: 100%;
+  }
+  
+  .button2__icon {
+    font-size: 1.5em;
+    background: rgb(34, 183, 34);
+  }
+  
+  .button3 {
+    display: flex;
+    height: 100px;
+    padding: 0;
+    margin-top: 8%;
+    margin-left: 32%;
+    background: rgb(178, 3, 102);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .button3.hover {
+    background: rgb(112, 2, 64);
+  }
+  
+  .button3:active {
+    background:rgb(112, 2, 64);
+  }
+  
+  .button3__text,
+  .button3__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 40px;
+    color: #fff;
+    height: 100%;
+  }
+  
+  .button3__icon {
+    font-size: 1.5em;
+    background:rgb(178, 3, 102) ;
+  }
+  
